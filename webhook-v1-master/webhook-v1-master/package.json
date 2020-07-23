@@ -1,0 +1,29 @@
+{
+  "name": "webhook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "actions-on-google": "^2.7.0",
+    "body-parser": "^1.19.0",
+    "cross-fetch": "^3.0.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deena57017/webhook-v1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deena57017/webhook-v1.git"
+  },
+  "homepage": "https://github.com/Deena57017/webhook-v1.git#readme"
+}

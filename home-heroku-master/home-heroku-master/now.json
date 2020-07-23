@@ -1,0 +1,75 @@
+{
+    "name":"newhome",
+    "version": 2,
+    "builds": [
+        { "src": "*.js", "use": "@now/node" }
+    ],
+    "env": {
+        "MONGODB_URI": "@MONGODB_URI"
+    },
+    "routes": 
+    [
+        {
+            "src": "/api/",
+            "dest": "/index.js",
+            "methods": ["GET"]
+        },
+        {
+            "src": "/api/home",
+            "dest": "/index.js",
+            "methods": ["GET"]
+        },
+        {
+            "src": "/api/home",
+            "dest": "/index.js",
+            "methods": ["POST"]
+        },
+        {
+            "src": "/api/edit",
+            "dest": "/index.js",
+            "methods": ["DELETE"]
+        },
+        {
+            "src": "/api/edit",
+            "dest": "/index.js",
+            "methods": ["PUT"]
+        },
+        {
+            "src": "/search/myhome",
+            "dest": "/index.js",
+            "methods": ["GET"]
+        },
+        {
+            "src": "/search/location",
+            "dest": "/index.js",
+            "methods": ["GET"]
+        },
+        {
+            "src": "/line/webhook",
+            "dest": "/index.js",
+            "methods": ["GET"]
+        },
+        {
+            "src": "/line/webhook",
+            "dest": "/index.js",
+            "methods": ["POST"]
+        },
+        {
+            "src": "/user/register",
+            "dest": "/index.js",
+            "methods": ["POST"]
+        },
+        {
+            "src": "/user/register",
+            "dest": "/index.js",
+            "methods": ["GET"]
+        },
+        {
+            "src": "/user/login",
+            "dest": "/index.js",
+            "methods": ["POST"]
+        }
+    
+    ]
+    
+}
