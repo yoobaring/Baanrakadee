@@ -48,6 +48,6 @@
     "request-promise": "^4.2.5",
     "uninstall": "0.0.0",
     "uuid": "^8.2.0",
-    "lodash": ">=4.17.19"
+    "lodash": ">=4.17.21"
   }
 }
